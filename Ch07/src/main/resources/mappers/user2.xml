@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="kr.co.ch07.dao.User2DAO">
+  <insert id="insertUser2">
+  	INSERT INTO `User2` VALUES (#{uid}, #{name}, #{hp}, #{age}); <!-- vo랑 자동 연결(mapping)이 될 것; 따라서 쿼리 파라미터 안에 vo 필드명을 넣은 것 -->
+  </insert>
+  <select id="selectUser2" resultType="kr.co.ch07.vo.User2VO">
+  	SELECT * FROM `User2` WHERE `uid` =#{uid};
+  </select>
+  <select id="selectUser2s" resultType="kr.co.ch07.vo.User2VO"> <!-- SELECT는 DB에서 결과를 받아오므로 User2.xml select 태그에 resultType 명시해야 함 -->
+  	SELECT * FROM `User2`;
+  </select>
+  <update id="updateUser2">
+  	UPDATE `User2` SET
+  		`name` =#{name},
+  		`hp` =#{hp},
+  		`age` =#{age}
+  	WHERE
+  		`uid` =#{uid};
+  </update>
+  <delete id="deleteUser2">
+  	DELETE FROM `User2` WHERE `uid` =#{uid};
+  </delete>
+</mapper>
