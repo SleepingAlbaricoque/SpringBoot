@@ -10,15 +10,14 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @Entity
-@Table(name="user1")
-public class User1VO {
+@Table(name="user3")
+public class User3VO {
 	@Id
 	private String uid;
 	private String name;
