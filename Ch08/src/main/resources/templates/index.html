@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Index</title>
+	</head>
+	<body>
+		<h3>Ch08 스프링부트 Security</h3>
+		
+		<h4>인가 테스트</h4>
+		<a th:href="@{/admin/success}">admin/success</a>
+		<a th:href="@{/manager/success}">manager/success</a>
+		<a th:href="@{/member/success}">member/success</a>
+		<a th:href="@{/guest/success}">guest/success</a>
+		
+		<h4>인증 테스트</h4>
+		<a th:href="@{/user1/login}">session 로그인</a>
+		<a th:href="@{/user2/login}">Spring Security 로그인</a>
+	</body>
+</html>
