@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 	<head>
 		<meta charset="UTF-8">
 		<title>user2/loginSuccess</title>
@@ -7,7 +8,11 @@
 	<body>
 		<h3>user2/loginSuccess</h3>
 		<p>
-			로그인 완료<br>
+			아이디: <span sec:authentication="principal.uid">아이디</span><br> <!-- security가 저장해 둔 session 객체 -->
+			이름: <span sec:authentication="principal.name">이름</span><br> 
+			휴대폰: [[${#authentication.principal.hp}]]<br>
+			나이: [[${#authentication.principal.age}]]<br>
+			날짜: [[${#authentication.principal.rdate}]]<br>
 			<a th:href="@{/user2/logout}">로그아웃</a>
 		</p>
 	</body>

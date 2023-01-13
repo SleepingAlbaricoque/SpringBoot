@@ -2,12 +2,18 @@ package kr.co.ch07.controller;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import kr.co.ch07.repository.User1Repo;
 import kr.co.ch07.vo.User1VO;
+import kr.co.ch07.vo.User2VO;
 
 @Controller
 public class MainController {
@@ -138,6 +144,31 @@ public class MainController {
 	@GetMapping("/query20")
 	public String query20() {
 		System.out.println("query20 결과: " + repo.selectUserUnderAge30());
+		return "redirect:/";
+	}
+	
+	@GetMapping("/user1/findUser")
+	public void findUser() {}
+	
+	@PostMapping("/user1/findUser")
+	public String findUser(String name, RedirectAttributes re) {
+		re.addAttribute("name", name);
+		return "redirect:/user1/findUserResult";
+	}
+	
+	@GetMapping("/user1/findUserResult")
+	public String findUserResult(Model model, @RequestParam(value="name") String name) {
+		List<User1VO> users = repo.selectUserByName(name);
+		System.out.println(name);
+		System.out.println("query21 결과: " + repo.selectUserByName(name));
+		model.addAttribute("users", users);
+		
+		return "/user1/findUserResult";
+	}
+	
+	@GetMapping("/query21")
+	public String query21() {
+		System.out.println("query21 결과: " + repo.selectUserByName("rr"));
 		return "redirect:/";
 	}
 }

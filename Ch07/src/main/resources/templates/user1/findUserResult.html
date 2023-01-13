@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>User Search Result</title>
+	</head>
+	<body>
+		<h3>User Info</h3>
+		<table border="1">
+			<tr th:each="user:${users}">
+				<td th:text=${user.uid}>아이디</td>
+				<td th:text=${user.name}>이름</td>
+				<td>[[${user.hp}]]</td>
+				<td>[[${user.age}]]</td>
+			</tr>
+		</table>
+	</body>
+</html>
