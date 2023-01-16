@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>index</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+		<script th:src="@{/js/user1.js}"></script>
+		<script th:src="@{/js/member.js}"></script>
+	</head>
+	<body>
+		<h3>Ch09.Spring REST 서비스 연습</h3>
+		
+		<h4>user1</h4>
+		<button class="user1_list1">user1 목록1(*)</button>
+		<button class="user1_list2">user1 목록2(search)</button>
+		<button class="user1_register">user1 등록</button>
+		<button class="user1_modify">user1 수정</button>
+		<button class="user1_delete">user1 삭제</button>
+		
+		<h4>member</h4>
+		<button class="member_list1">member 목록1(*)</button>
+		<button class="member_list2">member 목록2(search)</button>
+		<button class="member_register">member 등록</button>
+		<button class="member_modify">member 수정</button>
+		<button class="member_delete">member 삭제</button>
+	</body>
+</html>
