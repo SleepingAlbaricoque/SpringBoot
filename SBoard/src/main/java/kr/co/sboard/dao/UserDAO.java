@@ -3,6 +3,7 @@ package kr.co.sboard.dao;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
+import kr.co.sboard.vo.ArticleVO;
 import kr.co.sboard.vo.TermsVO;
 import kr.co.sboard.vo.UserVO;
 
@@ -16,4 +17,6 @@ public interface UserDAO {
 	public void selectUsers();
 	public void updateUser();
 	public void deleteUser();
+	
+	public void insertArticle(ArticleVO vo);
 }

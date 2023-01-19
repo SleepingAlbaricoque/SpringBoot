@@ -2,6 +2,8 @@ package kr.co.sboard.vo;
 
 import java.time.LocalDateTime;
 
+import org.hibernate.annotations.DynamicInsert;
+
 import lombok.Data;
 
 @Data
