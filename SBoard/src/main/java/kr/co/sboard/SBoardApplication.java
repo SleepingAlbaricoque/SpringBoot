@@ -15,7 +15,7 @@ public class SBoardApplication {
 		SpringApplication.run(SBoardApplication.class, args);
 	}
 
-	@GetMapping(value= {"/", "/index"})
+	@GetMapping(value= {"", "index"})
 	public String index(Principal principal) {
 		if(principal != null) {
 			return "redirect:/list";
