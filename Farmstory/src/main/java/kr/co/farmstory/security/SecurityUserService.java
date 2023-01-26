@@ -1,5 +1,7 @@
 package kr.co.farmstory.security;
 
+import kr.co.farmstory.dao.UserDAO;
+import kr.co.farmstory.vo.UserVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -9,26 +11,24 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SecurityUserService implements UserDetailsService{
-	
-	//@Autowired
-	//private UserRepo repo;
+
+	@Autowired
+	private UserDAO dao;
 	
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-		/*
-		UserEntity user = repo.findById(username).get();
-		
+
+		UserVO user = dao.selectUser(username);
+
 		if(user == null) {
 			throw new UsernameNotFoundException(username);
 		}
 		
-		// userDts : 세션에 저장될것
+		// 세션에 저장될 사용자 객체 생성
 		UserDetails userDts = MyUserDetails.builder().user(user).build();
-
+		
 		return userDts;
-		*/
-		return null;
 	}
 
-
+	
 }

@@ -1,7 +1,7 @@
 <th:block th:include="@{_header.html}"/>
 <th:block th:include="@{board/__${group}__.html}"/>
         <main id="board" class="list">
-            
+
             <table border="0">
                 <caption>글목록</caption>
                 <tr>
@@ -11,36 +11,37 @@
                     <th>날짜</th>
                     <th>조회</th>
                 </tr>
-                <!--/*
+
                 <tr th:each="article:${articles}">
                     <td>[[${article.no}]]</td>
-                    <td><a th:href="@{/view(no=${article.no})}">[[${article.title}]]&#91;[[${article.comment}]]&#93;</a></td>
+                    <td><a th:href="@{/view(group=${group},cate=${cate},no=${article.no})}">[[${article.title}]]&#91;[[${article.comment}]]&#93;</a></td>
                     <td>[[${article.nick}]]</td>
                     <td>[[${article.rdate}]]</td>
                     <td>[[${article.hit}]]</td>
                 </tr>
-                */-->
+
                 
             </table>
-            <!--/*
+
+
             <div class="page">
                 <th:block th:if="${groups[0]>1}">
-                	<a th:href="@{/list(pg=${groups[0]-1})}" class="prev">이전</a>
+                	<a th:href="@{/list(group=${group},cate=${cate},pg=${groups[0]-1})}" class="prev">이전</a>
                 </th:block>
                 
                 <th:block th:each="num:${#numbers.sequence(groups[0],groups[1])}">
                 
-                	<a th:href="@{/list(pg=${num})}" 
+                	<a th:href="@{/list(group=${group},cate=${cate},pg=${num})}"
                 	   th:class="${num==currentPage?'num current':'num'}">[[${num}]]</a>
                 	          
                 </th:block>
                 
                 <th:block th:if="${groups[1]<lastPageNum}">
-                	<a th:href="@{/list(pg=${groups[1]+1})}" class="next">다음</a>
+                	<a th:href="@{/list(group=${group},cate=${cate},pg=${groups[1]+1})}" class="next">다음</a>
                 </th:block>
             </div>
-            */-->
-            <a th:href="@{/board/write}" class="btnWrite">글쓰기</a>
+
+            <a th:href="@{/board/write(group=${group},cate=${cate})}" class="btnWrite">글쓰기</a>
 
         </main>
 </article>
