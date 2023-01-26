@@ -1,6 +1,7 @@
 package kr.co.farmstory.dao;
 
 import kr.co.farmstory.vo.ArticleVO;
+import kr.co.farmstory.vo.FileVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
@@ -16,4 +17,7 @@ public interface ArticleDAO {
     public int updateArticle(ArticleVO vo);
     public int deleteArticle(int no);
     public int selectCountTotal(String cate);
+    public int insertFile(FileVO vo);
+    public FileVO selectFile(int fno);
+    public int updateFileDownload(int fno);
 }

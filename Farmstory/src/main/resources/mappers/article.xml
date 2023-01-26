@@ -11,10 +11,60 @@
         order by no desc
         limit #{start}, 10;
     </select>
-    <select id="selectArticle" resultType="kr.co.farmstory.vo.ArticleVO">
 
-    </select>
     <select id="selectCountTotal" resultType="int">
         select count(`no`) from `board_article` where `parent`=0 and `cate`=#{cate};
     </select>
+
+    <insert id="insertArticle" useGeneratedKeys="true" keyProperty="no">
+        insert into `board_article` set `cate`=#{cate}, `title`=#{title}, `content`=#{content},
+            <if test="fname.isEmpty() == true">
+                `file` = 0,
+            </if>
+            <if test="fname.isEmpty() == false">
+                `file` = 1,
+            </if>
+            `uid`=#{uid}, `regip`=#{regip}, `rdate`=NOW();
+    </insert>
+    <insert id="insertFile">
+        insert into `board_file` set
+            `parent` =#{parent},
+            `newName` =#{newName},
+            `oriName` =#{oriName},
+            `rdate` =NOW();
+    </insert>
+
+    <select id="selectArticle" resultMap="selectArticleResultMap">
+        select * from `board_article` as a
+        left join `board_file` as b
+        on a.no = b.parent
+        where `no`=#{no};
+    </select>
+    <resultMap id="selectArticleResultMap" type="kr.co.farmstory.vo.ArticleVO">
+        <id column="no" property="no"/>
+        <result column="parent" property="parent"/>
+        <result column="comment" property="comment"/>
+        <result column="cate" property="cate"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="file" property="file"/>
+        <result column="uid" property="uid"/>
+        <result column="regip" property="regip"/>
+        <result column="rdate" property="rdate"/>
+
+        <association property="fileVO" javaType="kr.co.farmstory.vo.FileVO">
+            <id column="fno" property="fno"/>
+            <result column="parent" property="parent"/>
+            <result column="newName" property="newName"/>
+            <result column="oriName" property="oriName"/>
+            <result column="download" property="download"/>
+            <result column="rdate" property="rdate"/>
+        </association>
+    </resultMap>
+    <select id="selectFile" resultType="kr.co.farmstory.vo.FileVO">
+        select * from `board_file` where `fno`=#{fno};
+    </select>
+    <update id="updateFileDownload">
+        update `board_file` set `download` = `download` + 1 where `fno`=#{fno};
+    </update>
 </mapper>
