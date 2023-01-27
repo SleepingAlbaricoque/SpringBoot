@@ -67,4 +67,24 @@
     <update id="updateFileDownload">
         update `board_file` set `download` = `download` + 1 where `fno`=#{fno};
     </update>
+
+    <update id="updateArticle">
+        update `board_article` set `title`=#{vo.title}, `content`=#{vo.content},
+            <choose>
+                <when test="fileCheck==0 and vo.fname.isEmpty() == true">
+                    `file` =0
+                </when>
+                <otherwise>
+                    `file` =1
+                </otherwise>
+            </choose>
+        where `no`=#{vo.no};
+    </update>
+    <select id="checkArticleFile" resultType="int">
+        select `file` from `board_article` where `no`=#{no};
+    </select>
+
+    <delete id="deleteArticle">
+        delete from `board_article` where `no`=#{no};
+    </delete>
 </mapper>

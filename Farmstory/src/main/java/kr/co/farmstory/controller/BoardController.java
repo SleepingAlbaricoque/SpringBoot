@@ -12,7 +12,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -36,7 +38,8 @@ public class BoardController {
         int groups[] = service.getPageGroup(currentPage, lastPageNum);
 
         List<ArticleVO> articles = service.selectArticles(cate, start);
-        log.info("currentPage" + currentPage);
+        //log.info("currentPage" + currentPage);
+        //log.info("lastPageNum" + groups[1]);
 
         model.addAttribute("groups", groups);
         model.addAttribute("articles", articles);
@@ -54,6 +57,7 @@ public class BoardController {
         model.addAttribute("article", article);
         model.addAttribute("group", group);
         model.addAttribute("cate", cate);
+        //log.info("fno" + article.getFileVO().getFno());
         return "board/view";
     }
 
@@ -77,15 +81,38 @@ public class BoardController {
     }
 
     @PostMapping("board/write")
-    public String write(ArticleVO vo, HttpServletRequest req){
+    public String write(ArticleVO vo, HttpServletRequest req, String group, String cate, RedirectAttributes re){
         vo.setRegip(req.getRemoteAddr());
         service.insertArticle(vo);
-        return "redirect:/index";
+        re.addAttribute("group", group);
+        re.addAttribute("cate", cate);
+        return "redirect:/board/list";
     }
 
     @GetMapping("board/modify")
-    public String modify(){
-
+    public String modify(Model model, String group, String cate, int no){
+        model.addAttribute("no", no);
+        model.addAttribute("group", group);
+        model.addAttribute("cate", cate);
+        ArticleVO article = service.selectArticle(no);
+        model.addAttribute("article", article);
         return "board/modify";
+    }
+
+    @PostMapping("board/modify")
+    public String modify(ArticleVO vo, String group, String cate, RedirectAttributes re){
+        int fileCheck = service.checkArticleFile(vo.getNo());
+        service.updateArticle(vo);
+        re.addAttribute("group", group);
+        re.addAttribute("cate", cate);
+        return "redirect:/board/list";
+    }
+
+    @GetMapping("board/delete")
+    public String delete(String group, String cate, int no, RedirectAttributes re){
+        service.deleteArticle(no);
+        re.addAttribute("group", group);
+        re.addAttribute("cate", cate);
+        return "redirect:/board/list";
     }
 }

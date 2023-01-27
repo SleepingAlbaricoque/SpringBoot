@@ -48,9 +48,6 @@ public class ArticleService {
     public List<ArticleVO> selectArticles(String cate, int start){
         return dao.selectArticles(cate, start);
     }
-    public int updateArticle(ArticleVO vo){
-        return dao.updateArticle(vo);
-    }
     public int deleteArticle(int no){
         return dao.deleteArticle(no);
     }
@@ -106,6 +103,7 @@ public class ArticleService {
         return groups;
     }
 
+
     // 파일 업로드
 
     // application.properties에서 설정한 파일 저장 경로 주입받기
@@ -159,6 +157,28 @@ public class ArticleService {
     // 파일 다운로드 카운터 증가
     public int updateFileDownload(int fno){
         return dao.updateFileDownload(fno);
+    }
+
+
+    // 글 수정
+    public int updateArticle(ArticleVO vo){
+        int fileCheck = checkArticleFile(vo.getNo());
+        // 글 수정
+        int result = dao.updateArticle(vo, fileCheck);
+
+        // 파일 업로드
+        FileVO fvo = uploadFile(vo);
+
+        // 파일 board_file에 등록
+        if(fvo != null)
+            dao.insertFile(fvo);
+
+        return result;
+    }
+
+    // no 값을 이용해 DB에서 기존 글에 첨부된 파일이 있는 지 조회(file값)
+    public int checkArticleFile(int no){
+        return dao.checkArticleFile(no);
     }
 }
 

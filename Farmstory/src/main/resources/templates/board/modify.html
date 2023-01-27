@@ -2,25 +2,28 @@
 <th:block th:include="@{board/__${group}__.html}"/>
         <main id="board" class="modify">
             
-            <form action="#">
+            <form th:action="@{/board/modify}" method="post" enctype="multipart/form-data">
+                <input type="hidden" name="no" th:value="${no}"/>
+                <input type="hidden" name="group" th:value="${group}"/>
+                <input type="hidden" name="cate" th:value="${cate}"/>
                 <table border="0">
                     <caption>글수정</caption>
                     <tr>
                         <th>제목</th>
-                        <td><input type="text" name="title" placeholder="제목을 입력하세요."/></td>
+                        <td><input type="text" name="title" th:value=${article.title}></td>
                     </tr>
                     <tr>
                         <th>내용</th>
-                        <td><textarea name="content"></textarea></td>
+                        <td><textarea name="content">[[${article.content}]]</textarea></td>
                     </tr>
                     <tr>
                         <th>파일</th>
-                        <td><input type="file" name="file"/></td>
+                        <td><input type="file" name="fname"/></td>
                     </tr>
                 </table>
 
                 <div>
-                    <a href="./view.html" class="btn btnCancel">취소</a>
+                    <a th:href="@{/board/view(group=${group},cate=${cate},no=${article.no})}" class="btn btnCancel">취소</a>
                     <input type="submit" value="수정완료" class="btn btnComplete"/>
                 </div>
             </form>

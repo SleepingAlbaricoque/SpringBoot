@@ -28,14 +28,16 @@
                 <th:block th:if="${groups[0]>1}">
                 	<a th:href="@{/board/list(group=${group},cate=${cate},pg=${groups[0]-1})}" class="prev">이전</a>
                 </th:block>
-                
-                <th:block th:each="num:${#numbers.sequence(groups[0],groups[1])}">
-                
-                	<a th:href="@{/board/list(group=${group},cate=${cate},pg=${#strings.toString(num)})}"
-                	   th:class="${num==currentPage?'num current':'num'}">[[${num}]]</a>
-                	          
+
+                <th:block th:if="${groups[1] != 0}"> <!--글이 없으면 페이지 버튼이 1, 0 출력됨 => 글 없으면 페이지 버튼이 아예 안나오게 처리-->
+                    <th:block th:each="num:${#numbers.sequence(groups[0],groups[1])}">
+
+                        <a th:href="@{/board/list(group=${group},cate=${cate},pg=${#strings.toString(num)})}"
+                           th:class="${num==currentPage?'num current':'num'}">[[${num}]]</a>
+
+                    </th:block>
                 </th:block>
-                
+
                 <th:block th:if="${groups[1]<lastPageNum}">
                 	<a th:href="@{/board/list(group=${group},cate=${cate},pg=${groups[1]+1})}" class="next">다음</a>
                 </th:block>
