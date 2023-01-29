@@ -1,8 +1,235 @@
 <th:block th:include="@{_header.html}"/>
+<script>
+let regUid = /^[a-z]+[a-z0-9]{4,19}$/g;
+let regPass = /^.*(?=^.{5,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
+let regNick = /^[가-힣]{2,15}$/;
+let regEmail= /^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$/i;
+let receivedCode = 0;
 
+let isUidOk = false;
+let isPassOk = false;
+let isNickOk = false;
+let isEmailOk = false;
+let isEmailConfirmed = false;
+let validated = true;
+
+function ajax(url, param, arg, resultPanel){
+	const xhr = new XMLHttpRequest();
+	xhr.open("GET", "/Farmstory/user/" + url + "?" + param + "=" + arg);
+	xhr.responseType = "json";
+	xhr.send();
+	
+	xhr.onreadystatechange = function(){
+		if(xhr.readyState === XMLHttpRequest.DONE){
+			if(xhr.status === 200){
+				const data = xhr.response;
+				const result = document.querySelector(resultPanel);
+				
+				if(data.result == 1){
+					result.textContent = "이미 사용 중입니다";
+					result.style.color = "red";
+				}else{
+					if(param == "uid"){
+						isUidOk = true;
+					}else if(param == "nick"){
+						isNickOk = true;
+					}
+					result.textContent = "사용 가능합니다";
+					result.style.color = "green";
+					
+				}
+			}else{
+				alert('연결에 실패했습니다\n다시 시도해주세요');
+			}
+		}
+	}
+}
+
+function emailAjax(email){
+	const xhr = new XMLHttpRequest();
+	xhr.open("GET", "/Farmstory/user/verifyEmail?email=" + email);
+	xhr.responseType = "json";
+	xhr.send();
+	
+	xhr.onreadystatechange = function(){
+		if(xhr.readyState === XMLHttpRequest.DONE){
+			if(xhr.status === 200){
+				const data = xhr.response;
+				const ajaxResultEmail = document.querySelector('.resultEmail');
+				
+				//console.log(data.result);
+				//console.log("code" + data.code);
+				
+				if(data.result == 1){
+					ajaxResultEmail.textContent = "이메일을 확인 후 인증코드를 입력하세요";
+					ajaxResultEmail.style.color = "black";
+					document.querySelector('.auth').style.display = "block";
+					receivedCode = data.code;
+				}else{
+					alert('메일 전송에 실패하였습니다\n다시 시도해주세요');
+					}
+			}else{
+				alert('연결에 실패했습니다\n다시 시도해주세요');
+			}
+		}
+	}
+}
+
+window.onload = () => {
+	// 아이디 유효성 및 중복 검사
+	const btnUidCheck = document.getElementById('btnUidCheck');
+	const resultUid = document.getElementsByClassName('resultUid');
+	let registerUid = document.querySelector('input[name=uid]');
+
+	registerUid.addEventListener('focus', ()=>{
+		isUidOk = false;
+		resultUid[0].textContent = "";
+		registerUid.value = "";
+	});
+	
+	btnUidCheck.addEventListener('click', function(){
+		let uid = registerUid.value;
+		
+		if(!regUid.test(uid)){
+			//console.log(regUid.test(uid));
+			isUidOk = false;
+			resultUid[0].textContent="아이디가 유효하지 않습니다";
+			resultUid[0].style.color='red';
+			return;
+		}
+		
+		resultUid[0].textContent="...";
+		resultUid[0].style.color='black';
+		
+		setTimeout(function(){ajax("checkUid", "uid", uid, ".resultUid")}, 3000);
+		setTimeout(function(){console.log(isUidOk)}, 5000);
+	});
+	
+	// 비밀번호 일치 여부 확인
+	let registerPass = document.querySelector('input[name=pass2]');
+	let resultPass = document.querySelector('.resultPass');
+	resultPass.textContent = "영문, 숫자, 특수문자 조합 최소 5자리 이상";
+	
+	registerPass.addEventListener('focusout', () => {
+		let pass1 = document.querySelector('input[name=pass1]').value;
+		let pass2 = registerPass.value;
+		
+		if(pass1 == pass2){
+			if(regPass.test(pass2)){
+				isPassOk = true;
+				resultPass.textContent = "비밀번호 일치";
+				resultPass.style.color = "green";
+			}else{
+				resultPass.textContent = "영문, 숫자, 특수문자 조합 최소 5자리 이상";
+				resultPass.style.color = "red";
+			}
+		}else{
+			isPassOk = false;
+			resultPass.textContent = "비밀번호 불일치";
+			resultPass.style.color = "red";
+		}
+	});
+	
+	// 별명 유효성 및 중복 검사
+	let btnNickCheck = document.getElementById('btnNickCheck');
+	let resultNick = document.querySelector('.resultNick');
+	let registerNick = document.querySelector('input[name=nick]');
+	
+	registerNick.addEventListener('focus', ()=>{
+		isNickOk = false;
+		resultNick.textContent = "";
+		registerNick.value = "";
+	});
+	
+	btnNickCheck.addEventListener('click', ()=>{
+		let nick = registerNick.value;
+		
+		if(!regNick.test(nick)){
+			isNickOk = false;
+			resultNick.textContent = "별명은 한글 두 자에서 15자 사이여야 합니다";
+			resultNick.style.color = "red";
+			return;
+		}
+		
+		resultNick.textContent="...";
+		resultNick.style.color='black';
+		
+		setTimeout(function(){ajax("checkNick", "nick", nick, ".resultNick")}, 3000);
+	});
+	
+	// 이메일 인증
+	let btnEmailCheck = document.getElementById('btnEmailCheck');
+	let resultEmail = document.querySelector('.resultEmail');
+	let registerEmail = document.querySelector('input[name=email]');
+	let btnEmailConfirm = document.getElementById('btnEmailConfirm');
+	let confirmEmail = document.querySelector('input[name=auth]');
+	
+	btnEmailCheck.addEventListener('click', ()=>{
+		let email = registerEmail.value;
+		
+		if(!regEmail.test(email)){
+			isEmailOk = false;
+			resultEmail.textContent="유효한 이메일이 아닙니다";
+			resultEmail.style.color = "red";
+			return;
+		}else{
+			isEmailOk = true;
+			resultEmail.textContent="인증코드를 전송 중입니다";
+			
+			emailAjax(email);
+		}
+		
+	});
+	
+	btnEmailConfirm.addEventListener('click', ()=>{
+		let code = document.querySelector('input[name=auth]').value;
+		
+		if(code == receivedCode){
+			isEmailConfirmed = true;
+			registerEmail.readOnly = true;
+			resultEmail.textContent = "이메일이 인증되었습니다";
+			document.querySelector('.auth').style.display = "none";
+		}else{
+			isEmailConfirmed = false;
+			alert('인증코드가 틀립니다\n다시 확인하세요');
+		}
+	});
+	
+	// 폼 전송 전 유효성 및 인증 확인
+	let validationForm = document.getElementById('validationForm');
+	let btnRegister = document.querySelector('.btnRegister');
+	
+	btnRegister.addEventListener('click', ()=>{
+		
+		if(isUidOk == false){
+			alert('아이디를 확인하십시오');
+			validated = false;
+		}
+		
+		if(isPassOk == false){
+			alert('패스워드를 확인하십시오');
+			validated = false;
+		}
+		
+		if(isNickOk == false){
+			alert('별명을 확인하십시오');
+			validated = false;
+		}
+		
+		if(isEmailConfirmed == false){
+			alert('이메일을 인증하십시오');
+			validated = false;
+		}
+		
+		if(validated){
+			validation.submit();
+		}
+	});
+};
+</script>
         <main id="user" class="register">
 
-            <form th:action="@{/user/register}" method="post">
+            <form th:action="@{/user/register}" method="post" id="validationForm">
                 <table border="1">
                     <caption>사이트 이용정보 입력</caption>
                     <tr>
@@ -39,9 +266,8 @@
                     <tr>
                         <th>별명</th>
                         <td>
-                            <p>공백없이 한글, 영문, 숫자 입력</p>
                             <input type="text" name="nick" placeholder="별명 입력"/>
-                            <button type="button"><img th:src="@{/img/chk_id.gif}" alt="중복확인"/></button>
+                            <button type="button" id="btnNickCheck"><img th:src="@{/img/chk_id.gif}" alt="중복확인"/></button>
                             <span class="resultNick"></span>
                         </td>
                     </tr>                    
@@ -49,6 +275,12 @@
                         <th>이메일</th>
                         <td>
                             <input type="email" name="email" placeholder="이메일 입력"/>
+                            <button type="button" id="btnEmailCheck"><img th:src="@{/img/chk_id.gif}" alt="중복확인"/></button>
+                            <span class="resultEmail"></span>
+                            <div class="auth" style="display:none;">
+                            	<input type="text" name="auth" placeholder="인증번호 입력"/>
+                                    <button type="button" id="btnEmailConfirm"><img th:src="@{/img/chk_id.gif}" alt="확인"/></button>
+                            </div>
                         </td>
                     </tr>
                     <tr>

@@ -18,5 +18,10 @@ public interface UserDAO {
 
     // Print terms
     public TermsVO selectTerms();
-
+    
+    // checkUid
+    public int countUser(String uid);
+    
+    // checkNick
+    public int countUserByNick(String nick);
 }

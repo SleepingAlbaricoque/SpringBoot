@@ -15,4 +15,11 @@
     <select id="selectUser" resultType="kr.co.farmstory.vo.UserVO">
         select * from `board_user` where `uid`=#{username};
     </select>
+    
+    <select id="countUser" resultType="int">
+    	select count(`uid`) from `board_user` where `uid`=#{uid};
+    </select>
+    <select id="countUserByNick" resultType="int">
+    	select count(`nick`) from `board_user` where `nick`=#{nick};
+    </select>
 </mapper>
