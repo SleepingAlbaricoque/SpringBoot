@@ -1,5 +1,7 @@
 <th:block th:include="@{_header.html}"/>
-<script th:src="@{/static/js/postcode.js}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="http://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script src="/Farmstory/js/postcode.js"></script>
 <script>
 let regUid = /^[a-z]+[a-z0-9]{4,19}$/g;
 let regPass = /^.*(?=^.{5,15}$)(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#$%^&+=]).*$/;
@@ -228,6 +230,7 @@ window.onload = () => {
 	});
 };
 </script>
+<script src="http://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js%22%3E"></script>
         <main id="user" class="register">
 
             <form th:action="@{/user/register}" method="post" id="validationForm">
@@ -294,7 +297,7 @@ window.onload = () => {
                         <th>주소</th>
                         <td>
                             <input type="text" name="zip" placeholder="우편번호 검색" readonly/>
-                            <button type="button"><img th:src="@{/img/chk_post.gif}" alt="우편번호 찾기"/></button>
+                            <button type="button" onclick="postcode()"><img th:src="@{/img/chk_post.gif}" alt="우편번호 찾기"/></button>
                             <input type="text" name="addr1" placeholder="기본주소 검색" readonly/>
                             <input type="text" name="addr2" placeholder="상세주소 입력"/>
                         </td>
