@@ -39,7 +39,6 @@ function ajax(url, param, arg, resultPanel){
 					}
 					result.textContent = "사용 가능합니다";
 					result.style.color = "green";
-					
 				}
 			}else{
 				alert('연결에 실패했습니다\n다시 시도해주세요');
@@ -80,8 +79,8 @@ function emailAjax(email){
 
 window.onload = () => {
 	// 아이디 유효성 및 중복 검사
-	const btnUidCheck = document.getElementById('btnUidCheck');
-	const resultUid = document.getElementsByClassName('resultUid');
+	let btnUidCheck = document.getElementById('btnUidCheck');
+	let resultUid = document.getElementsByClassName('resultUid');
 	let registerUid = document.querySelector('input[name=uid]');
 
 	registerUid.addEventListener('focus', ()=>{
@@ -106,6 +105,9 @@ window.onload = () => {
 		
 		setTimeout(function(){ajax("checkUid", "uid", uid, ".resultUid")}, 3000);
 		setTimeout(function(){console.log(isUidOk)}, 5000);
+		let isRegUidMet = regUid.test(uid);
+		setTimeout(function(){console.log('regUid: ' + isRegUidMet)}, 5000);
+		setTimeout(function(){console.log('uid: ' + uid)}, 5000);
 	});
 	
 	// 비밀번호 일치 여부 확인
@@ -158,6 +160,8 @@ window.onload = () => {
 		resultNick.style.color='black';
 		
 		setTimeout(function(){ajax("checkNick", "nick", nick, ".resultNick")}, 3000);
+		let isRegNickMet = regNick.test(nick);
+		setTimeout(function(){console.log('regNick: ' + isRegNickMet)}, 5000);
 	});
 	
 	// 이메일 인증
@@ -305,7 +309,7 @@ window.onload = () => {
                 </table>
 
                 <div>
-                    <a href="./login.html" class="btnCancel">취소</a>
+                    <a th:href="@{/user/login}" class="btnCancel">취소</a>
                     <input type="submit" class="btnRegister" value="회원가입"/>
                 </div>
             </form>            
