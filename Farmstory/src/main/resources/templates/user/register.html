@@ -78,7 +78,7 @@ function emailAjax(email){
 }
 
 window.onload = () => {
-	// 아이디 유효성 및 중복 검사
+	// 아이디 유효성 및 중복 검사: 버튼 토글 시 resultUid 문구 바뀌는 오류 수정
 	let btnUidCheck = document.getElementById('btnUidCheck');
 	let resultUid = document.getElementsByClassName('resultUid');
 	let registerUid = document.querySelector('input[name=uid]');
