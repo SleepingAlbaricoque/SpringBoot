@@ -1,11 +1,12 @@
 <th:block th:include="@{_header.html}"/>
+
         <main id="user" class="terms">
             <table border="0">
                 <caption>사이트 이용약관</caption>
                 <tr>
                     <td>
                         <textarea class="terms" readonly>[[${terms.terms}]]</textarea>
-                        <label><input type="checkbox" class="terms">&nbsp;동의합니다.</label>
+                        <label><input type="checkbox" class="rules">&nbsp;동의합니다.</label>
                     </td>
                 </tr>
             </table>
@@ -15,14 +16,29 @@
                 <tr>
                     <td>
                         <textarea class="privacy" readonly>[[${terms.privacy}]]</textarea>
-                        <label><input type="checkbox" class="privacy">&nbsp;동의합니다.</label>
+                        <label><input type="checkbox" class="privacy_policies">&nbsp;동의합니다.</label>
                     </td>
                 </tr>
             </table>
 
             <p>
                 <a th:href="@{/user/login}" class="cancel">취소</a>
-                <a th:href="@{/user/register}" class="next">다음</a>
+                <a class="next" onclick="validate()">다음</a>
             </p>            
         </main>
 <th:block th:include="@{_footer.html}"/>
+<script>
+	function validate(){
+		var terms = document.querySelector('.rules').checked;
+		var privacy = document.querySelector('.privacy_policies').checked;
+		console.log(terms);
+		console.log(privacy);
+
+		if(terms && privacy){
+			location.href="/Farmstory/user/register";
+			//location.replace("/Farmstory/user/register") 이거는 이전 화면으로 돌아가면 바로 로그인 창이 뜸;
+		}else{
+			alert("모든 약관에 동의하셔야 다음으로 넘어 갈 수 있습니다");
+		}
+	}
+</script>
