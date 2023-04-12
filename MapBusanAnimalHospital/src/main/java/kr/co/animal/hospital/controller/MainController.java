@@ -30,7 +30,7 @@ public class MainController {
 	public String index(Model model) throws UnsupportedEncodingException {
 		// API 정보
 		String apiURL = "http://apis.data.go.kr/6260000/BusanAnimalHospService/getTblAnimalHospital";
-		String serviceKey = "";
+		String serviceKey = "IlgHlyFAwzKoFv74rD2HJmBU%2BPBA4ZbufpdmN%2FcRmYzfsq%2FkMtDPYu158Xt45M6JnX%2BO1JklLN%2BQpQQSKLPbhw%3D%3D";
 		String resultType = "json";
 		String pageNo = "1";
 		String numOfRows = "1000";
