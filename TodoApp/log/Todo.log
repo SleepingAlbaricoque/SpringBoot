@@ -1,0 +1,1051 @@
+2023-04-24T09:43:10.837+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19700 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:43:10.838+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:43:10.870+09:00  INFO 19700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T09:43:10.870+09:00  INFO 19700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T09:43:11.514+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:43:11.521+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:43:11.521+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:43:11.565+09:00  INFO 19700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:43:11.566+09:00  INFO 19700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 695 ms
+2023-04-24T09:43:11.937+09:00  INFO 19700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:43:11.962+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:43:11.969+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.389 seconds (process running for 1.843)
+2023-04-24T09:43:16.489+09:00  INFO 19700 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-04-24T09:43:16.499+09:00  INFO 19700 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:43:16.567+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19700 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:43:16.568+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:43:16.719+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:43:16.720+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:43:16.720+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:43:16.729+09:00  INFO 19700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:43:16.729+09:00  INFO 19700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2023-04-24T09:43:16.823+09:00  INFO 19700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:43:16.829+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:43:16.832+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.283 seconds (process running for 6.705)
+2023-04-24T09:43:16.833+09:00  INFO 19700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T09:43:18.246+09:00  INFO 19700 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 0 deletions, 9 modifications)
+2023-04-24T09:43:18.251+09:00  INFO 19700 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:43:18.301+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19700 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:43:18.302+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:43:18.426+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:43:18.426+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:43:18.426+09:00  INFO 19700 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:43:18.434+09:00  INFO 19700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:43:18.434+09:00  INFO 19700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2023-04-24T09:43:18.508+09:00  INFO 19700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:43:18.514+09:00  INFO 19700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:43:18.517+09:00  INFO 19700 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.232 seconds (process running for 8.391)
+2023-04-24T09:43:18.518+09:00  INFO 19700 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T09:43:20.369+09:00  INFO 19700 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T09:43:20.374+09:00  INFO 19700 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:43:24.108+09:00  INFO 16216 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 16216 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:43:24.110+09:00  INFO 16216 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:43:24.144+09:00  INFO 16216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T09:43:24.144+09:00  INFO 16216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T09:43:24.800+09:00  INFO 16216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:43:24.807+09:00  INFO 16216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:43:24.808+09:00  INFO 16216 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:43:24.851+09:00  INFO 16216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:43:24.851+09:00  INFO 16216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 707 ms
+2023-04-24T09:43:25.222+09:00  INFO 16216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:43:25.245+09:00  INFO 16216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:43:25.252+09:00  INFO 16216 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.393 seconds (process running for 1.844)
+2023-04-24T09:43:43.064+09:00  INFO 16216 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T09:43:43.071+09:00  INFO 16216 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:44:11.210+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7864 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:44:11.215+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:44:11.335+09:00  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T09:44:11.335+09:00  INFO 7864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T09:44:12.208+09:00  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:44:12.215+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:44:12.215+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:44:12.260+09:00  INFO 7864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:44:12.261+09:00  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 926 ms
+2023-04-24T09:44:12.656+09:00  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:44:12.680+09:00  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:44:12.689+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 2.029 seconds (process running for 2.933)
+2023-04-24T09:44:49.570+09:00  INFO 7864 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-04-24T09:44:49.578+09:00  INFO 7864 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:44:49.630+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7864 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:44:49.630+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:44:49.783+09:00  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:44:49.784+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:44:49.784+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:44:49.795+09:00  INFO 7864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:44:49.795+09:00  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 163 ms
+2023-04-24T09:44:49.802+09:00  WARN 7864 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController': Lookup method resolution failed
+2023-04-24T09:44:49.802+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:44:49.807+09:00  INFO 7864 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-24T09:44:49.823+09:00 ERROR 7864 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:471) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:341) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at kr.co.todo.TodoAppApplication.main(TodoAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [kr.co.todo.controller.AppController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4de5a33]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:449) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: kr/co/todo/vo/TodoVO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.8.jar:6.0.8]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: kr.co.todo.vo.TodoVO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2023-04-24T09:44:51.267+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7864 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:44:51.267+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:44:51.395+09:00  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:44:51.396+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:44:51.396+09:00  INFO 7864 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:44:51.404+09:00  INFO 7864 --- [restartedMain] o.a.c.c.C.[.[localhost].[/Todo]          : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:44:51.404+09:00  INFO 7864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2023-04-24T09:44:51.483+09:00  INFO 7864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:44:51.489+09:00  INFO 7864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:44:51.491+09:00  INFO 7864 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.24 seconds (process running for 41.736)
+2023-04-24T09:44:51.492+09:00  INFO 7864 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T09:44:51.677+09:00  INFO 7864 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T09:44:51.681+09:00  INFO 7864 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T09:44:57.638+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T09:44:57.640+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T09:44:57.672+09:00  INFO 12352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T09:44:57.672+09:00  INFO 12352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T09:44:58.330+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T09:44:58.338+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T09:44:58.338+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T09:44:58.388+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T09:44:58.389+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
+2023-04-24T09:44:58.784+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T09:44:58.813+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T09:44:58.821+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.441 seconds (process running for 1.917)
+2023-04-24T10:03:54.460+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:03:54.468+09:00  INFO 12352 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:03:54.524+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:03:54.524+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:03:54.674+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:03:54.675+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:03:54.675+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:03:54.685+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:03:54.685+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2023-04-24T10:03:54.807+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:03:54.814+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:03:54.817+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.313 seconds (process running for 1137.913)
+2023-04-24T10:03:54.819+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:04:00.288+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:04:00.294+09:00  INFO 12352 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:04:00.359+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:04:00.360+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:04:00.485+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:04:00.485+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:04:00.485+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:04:00.494+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:04:00.494+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 133 ms
+2023-04-24T10:04:00.565+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:04:00.572+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:04:00.575+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.236 seconds (process running for 1143.671)
+2023-04-24T10:04:00.576+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:04:02.997+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:04:03.001+09:00  INFO 12352 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:04:03.047+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:04:03.047+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:04:03.163+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:04:03.163+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:04:03.163+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:04:03.171+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:04:03.171+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2023-04-24T10:04:03.241+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:04:03.247+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:04:03.249+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.218 seconds (process running for 1146.346)
+2023-04-24T10:04:03.250+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:04:16.808+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:04:16.813+09:00  INFO 12352 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:04:16.858+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:04:16.858+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:04:16.977+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:04:16.977+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:04:16.977+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:04:16.987+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:04:16.987+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 128 ms
+2023-04-24T10:04:17.059+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:04:17.065+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:04:17.067+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.223 seconds (process running for 1160.163)
+2023-04-24T10:04:17.068+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:04:21.521+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:04:21.525+09:00  INFO 12352 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:04:21.566+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:04:21.567+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:04:21.677+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:04:21.678+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:04:21.678+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:04:21.686+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:04:21.686+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2023-04-24T10:04:21.749+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:04:21.755+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:04:21.757+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.204 seconds (process running for 1164.854)
+2023-04-24T10:04:21.758+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:05:01.673+09:00  INFO 12352 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:05:01.678+09:00  INFO 12352 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:05:01.726+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 12352 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:05:01.726+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:05:01.854+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:05:01.854+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:05:01.854+09:00  INFO 12352 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:05:01.862+09:00  INFO 12352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:05:01.862+09:00  INFO 12352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2023-04-24T10:05:01.939+09:00  INFO 12352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:05:01.945+09:00  INFO 12352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:05:01.948+09:00  INFO 12352 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.239 seconds (process running for 1205.044)
+2023-04-24T10:05:01.949+09:00  INFO 12352 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:05:18.644+09:00  INFO 12352 --- [RMI TCP Connection(23)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T10:05:18.648+09:00  INFO 12352 --- [RMI TCP Connection(23)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:05:23.538+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7092 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:05:23.540+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:05:23.571+09:00  INFO 7092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T10:05:23.572+09:00  INFO 7092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T10:05:24.235+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:05:24.242+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:05:24.243+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:05:24.285+09:00  INFO 7092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Todo]   : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:05:24.286+09:00  INFO 7092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2023-04-24T10:05:24.683+09:00  INFO 7092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:05:24.706+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/Todo'
+2023-04-24T10:05:24.713+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.431 seconds (process running for 1.939)
+2023-04-24T10:05:48.363+09:00  INFO 7092 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:05:48.371+09:00  INFO 7092 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:05:48.421+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7092 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:05:48.421+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:05:48.560+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-24T10:05:48.560+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:05:48.560+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:05:48.571+09:00  INFO 7092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:05:48.571+09:00  INFO 7092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2023-04-24T10:05:48.655+09:00  INFO 7092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:05:48.661+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-24T10:05:48.664+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.261 seconds (process running for 25.89)
+2023-04-24T10:05:48.665+09:00  INFO 7092 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:05:54.163+09:00  INFO 7092 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:05:54.167+09:00  INFO 7092 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:05:54.215+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 7092 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:05:54.215+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:05:54.339+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:05:54.340+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:05:54.340+09:00  INFO 7092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:05:54.348+09:00  INFO 7092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:05:54.348+09:00  INFO 7092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
+2023-04-24T10:05:54.419+09:00  INFO 7092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:05:54.425+09:00  INFO 7092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:05:54.427+09:00  INFO 7092 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.228 seconds (process running for 31.653)
+2023-04-24T10:05:54.428+09:00  INFO 7092 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:06:23.180+09:00  INFO 7092 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T10:06:23.184+09:00  INFO 7092 --- [RMI TCP Connection(4)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:06:27.673+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19448 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:06:27.675+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:06:27.705+09:00  INFO 19448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T10:06:27.705+09:00  INFO 19448 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T10:06:28.395+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:06:28.403+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:06:28.403+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:06:28.445+09:00  INFO 19448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:06:28.446+09:00  INFO 19448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 741 ms
+2023-04-24T10:06:28.855+09:00  INFO 19448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:06:28.880+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:06:28.887+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.468 seconds (process running for 1.92)
+2023-04-24T10:06:41.065+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T10:06:41.066+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T10:06:41.067+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T10:07:23.986+09:00  INFO 19448 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:07:23.994+09:00  INFO 19448 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:07:23.995+09:00  INFO 19448 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T10:07:24.052+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19448 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:07:24.053+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:07:24.216+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:07:24.217+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:07:24.217+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:07:24.226+09:00  INFO 19448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:07:24.226+09:00  INFO 19448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 170 ms
+2023-04-24T10:07:24.306+09:00  INFO 19448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:07:24.315+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:07:24.318+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.286 seconds (process running for 57.351)
+2023-04-24T10:07:24.319+09:00  INFO 19448 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:08:00.880+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T10:08:00.880+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T10:08:00.881+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T10:08:00.932+09:00  INFO 19448 --- [http-nio-8383-exec-2] kr.co.todo.controller.AppController      : content : 빨래하기
+2023-04-24T10:08:24.431+09:00  INFO 19448 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:08:24.436+09:00  INFO 19448 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:08:24.436+09:00  INFO 19448 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T10:08:24.502+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19448 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:08:24.502+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:08:24.620+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:08:24.621+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:08:24.621+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:08:24.630+09:00  INFO 19448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:08:24.630+09:00  INFO 19448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2023-04-24T10:08:24.703+09:00  INFO 19448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:08:24.710+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:08:24.713+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.227 seconds (process running for 117.747)
+2023-04-24T10:08:24.714+09:00  INFO 19448 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:09:16.737+09:00  INFO 19448 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:09:16.741+09:00  INFO 19448 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:09:16.788+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19448 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:09:16.788+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:09:16.907+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:09:16.908+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:09:16.908+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:09:16.916+09:00  INFO 19448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:09:16.916+09:00  INFO 19448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2023-04-24T10:09:16.986+09:00  INFO 19448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:09:16.991+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:09:16.993+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.221 seconds (process running for 170.027)
+2023-04-24T10:09:16.994+09:00  INFO 19448 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:09:42.000+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T10:09:42.000+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T10:09:42.001+09:00  INFO 19448 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T10:09:42.017+09:00  INFO 19448 --- [http-nio-8383-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-24T10:09:43.242+09:00 ERROR 19448 --- [http-nio-8383-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLSyntaxErrorException: Access denied for user 'chhak'@'%' to database 'java1db'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy65.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.11.jar:3.5.11]
+	at jdk.proxy6/jdk.proxy6.$Proxy79.insertTodo(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.0.8.jar:6.0.8]
+	at jdk.proxy6/jdk.proxy6.$Proxy80.insertTodo(Unknown Source) ~[na:na]
+	at kr.co.todo.service.AppService.insertTodo(AppService.java:18) ~[classes/:na]
+	at kr.co.todo.controller.AppController.todo(AppController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-04-24T10:09:43.253+09:00 ERROR 19448 --- [http-nio-8383-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.mybatis.spring.MyBatisSystemException] with root cause
+
+java.sql.SQLSyntaxErrorException: Access denied for user 'chhak'@'%' to database 'java1db'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188) ~[mysql-connector-j-8.0.33.jar:8.0.33]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-6.0.8.jar:6.0.8]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at jdk.proxy2/jdk.proxy2.$Proxy65.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-3.0.0.jar:3.0.0]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.11.jar:3.5.11]
+	at jdk.proxy6/jdk.proxy6.$Proxy79.insertTodo(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.8.jar:6.0.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.0.8.jar:6.0.8]
+	at jdk.proxy6/jdk.proxy6.$Proxy80.insertTodo(Unknown Source) ~[na:na]
+	at kr.co.todo.service.AppService.insertTodo(AppService.java:18) ~[classes/:na]
+	at kr.co.todo.controller.AppController.todo(AppController.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-04-24T10:10:06.965+09:00  INFO 19448 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:10:06.968+09:00  INFO 19448 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:10:06.969+09:00  INFO 19448 --- [Thread-15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T10:10:07.018+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 19448 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:10:07.018+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:10:07.130+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:10:07.131+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:10:07.131+09:00  INFO 19448 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:10:07.140+09:00  INFO 19448 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:10:07.140+09:00  INFO 19448 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2023-04-24T10:10:07.204+09:00  INFO 19448 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:10:07.209+09:00  INFO 19448 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:10:07.212+09:00  INFO 19448 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.209 seconds (process running for 220.246)
+2023-04-24T10:10:07.214+09:00  INFO 19448 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:10:09.933+09:00  INFO 19448 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T10:10:09.937+09:00  INFO 19448 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:10:14.994+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:10:14.996+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:10:15.026+09:00  INFO 11900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T10:10:15.027+09:00  INFO 11900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T10:10:15.694+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:10:15.702+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:10:15.703+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:10:15.755+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:10:15.755+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 728 ms
+2023-04-24T10:10:16.147+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:10:16.171+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:10:16.178+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 1.444 seconds (process running for 1.893)
+2023-04-24T10:10:25.324+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T10:10:25.324+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T10:10:25.325+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T10:10:25.400+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-24T10:10:25.602+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@84e6b43
+2023-04-24T10:10:25.604+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-24T10:31:32.745+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:31:32.753+09:00  INFO 11900 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:31:32.754+09:00  INFO 11900 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T10:31:32.757+09:00  WARN 11900 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-04-24T10:31:32.762+09:00  INFO 11900 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-24T10:31:32.770+09:00  INFO 11900 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-24T10:31:32.824+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:31:32.825+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:31:32.985+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:31:32.985+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:31:32.986+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:31:32.994+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:31:32.994+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 167 ms
+2023-04-24T10:31:33.076+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:31:33.082+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:31:33.085+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.284 seconds (process running for 1278.801)
+2023-04-24T10:31:33.086+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:31:40.577+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:31:40.582+09:00  INFO 11900 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:31:40.634+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:31:40.635+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:31:40.757+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:31:40.757+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:31:40.757+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:31:40.765+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:31:40.765+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2023-04-24T10:31:40.839+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:31:40.844+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:31:40.847+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.228 seconds (process running for 1286.563)
+2023-04-24T10:31:40.848+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:31:52.407+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:31:52.412+09:00  INFO 11900 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:31:52.458+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:31:52.458+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:31:52.574+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:31:52.575+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:31:52.575+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:31:52.584+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:31:52.584+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2023-04-24T10:31:52.652+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:31:52.658+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:31:52.661+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.218 seconds (process running for 1298.376)
+2023-04-24T10:31:52.662+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:32:21.293+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T10:32:21.298+09:00  INFO 11900 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T10:32:21.346+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T10:32:21.346+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T10:32:21.463+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T10:32:21.463+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T10:32:21.463+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T10:32:21.472+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T10:32:21.473+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2023-04-24T10:32:21.537+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T10:32:21.543+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T10:32:21.546+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.214 seconds (process running for 1327.262)
+2023-04-24T10:32:21.547+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T10:32:52.220+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T10:32:52.221+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T10:32:52.222+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T10:32:52.227+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-04-24T10:32:52.242+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7621f0e8
+2023-04-24T10:32:52.243+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-04-24T11:11:53.022+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:11:53.027+09:00  INFO 11900 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:11:53.027+09:00  INFO 11900 --- [Thread-19] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T11:11:53.029+09:00  WARN 11900 --- [Thread-19] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-04-24T11:11:53.030+09:00  INFO 11900 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-04-24T11:11:53.033+09:00  INFO 11900 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-04-24T11:11:53.083+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:11:53.083+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:11:53.205+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:11:53.205+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:11:53.205+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:11:53.213+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:11:53.213+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 128 ms
+2023-04-24T11:11:53.219+09:00  WARN 11900 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController' defined in file [C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes\kr\co\todo\controller\AppController.class]: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+2023-04-24T11:11:53.219+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:11:53.224+09:00  INFO 11900 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-24T11:11:53.238+09:00 ERROR 11900 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController' defined in file [C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes\kr\co\todo\controller\AppController.class]: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at kr.co.todo.TodoAppApplication.main(TodoAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete MethodHeaderName
+	Syntax error, insert ")" to complete MethodDeclaration
+	Syntax error, insert ";" to complete MethodDeclaration
+
+	at kr.co.todo.controller.AppController.<init>(AppController.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 common frames omitted
+
+2023-04-24T11:11:59.746+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:11:59.747+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:11:59.865+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:11:59.866+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:11:59.867+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:11:59.875+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:11:59.875+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2023-04-24T11:11:59.880+09:00  WARN 11900 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController' defined in file [C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes\kr\co\todo\controller\AppController.class]: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+2023-04-24T11:11:59.880+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:11:59.883+09:00  INFO 11900 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-24T11:11:59.885+09:00 ERROR 11900 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'appController' defined in file [C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes\kr\co\todo\controller\AppController.class]: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:917) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584) ~[spring-context-6.0.8.jar:6.0.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.6.jar:3.0.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.6.jar:3.0.6]
+	at kr.co.todo.TodoAppApplication.main(TodoAppApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.0.6.jar:3.0.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [kr.co.todo.controller.AppController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-6.0.8.jar:6.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The annotation @Delete must define the attribute value
+	Syntax error, insert "enum Identifier" to complete EnumHeaderName
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at kr.co.todo.controller.AppController.<init>(AppController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-6.0.8.jar:6.0.8]
+	... 24 common frames omitted
+
+2023-04-24T11:12:01.330+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:12:01.330+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:12:01.443+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:12:01.443+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:12:01.443+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:12:01.451+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:12:01.451+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-04-24T11:12:01.527+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:12:01.533+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:12:01.536+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.218 seconds (process running for 3707.251)
+2023-04-24T11:12:01.536+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:12:03.961+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:12:03.966+09:00  INFO 11900 --- [Thread-23] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:12:04.015+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:12:04.016+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:12:04.128+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:12:04.128+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:12:04.128+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:12:04.136+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:12:04.136+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-04-24T11:12:04.201+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:12:04.205+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:12:04.209+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.206 seconds (process running for 3709.924)
+2023-04-24T11:12:04.209+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:12:12.704+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:12:12.708+09:00  INFO 11900 --- [Thread-33] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:12:12.754+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:12:12.755+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:12:12.869+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:12:12.869+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:12:12.869+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:12:12.877+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:12:12.878+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2023-04-24T11:12:12.940+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:12:12.946+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:12:12.948+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.208 seconds (process running for 3718.665)
+2023-04-24T11:12:12.949+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:12:35.604+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:12:35.609+09:00  INFO 11900 --- [Thread-37] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:12:35.682+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:12:35.683+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:12:35.794+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:12:35.795+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:12:35.795+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:12:35.803+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:12:35.803+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-04-24T11:12:35.866+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:12:35.872+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:12:35.874+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.207 seconds (process running for 3741.59)
+2023-04-24T11:12:35.875+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:13:20.795+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:13:20.800+09:00  INFO 11900 --- [Thread-41] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:13:20.849+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:13:20.850+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:13:20.962+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:13:20.962+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:13:20.963+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:13:20.970+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:13:20.970+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2023-04-24T11:13:21.031+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:13:21.036+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:13:21.038+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.202 seconds (process running for 3786.754)
+2023-04-24T11:13:21.039+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:13:44.728+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:13:44.732+09:00  INFO 11900 --- [Thread-45] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:13:44.781+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:13:44.782+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:13:44.899+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:13:44.900+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:13:44.900+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:13:44.911+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:13:44.911+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 128 ms
+2023-04-24T11:13:45.007+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:13:45.013+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:13:45.016+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.249 seconds (process running for 3810.732)
+2023-04-24T11:13:45.016+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:14:02.612+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:14:02.616+09:00  INFO 11900 --- [Thread-49] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:14:02.662+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:14:02.662+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:14:02.769+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:14:02.769+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:14:02.769+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:14:02.777+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:14:02.777+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2023-04-24T11:14:02.840+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:14:02.846+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:14:02.848+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.198 seconds (process running for 3828.564)
+2023-04-24T11:14:02.849+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:14:14.396+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:14:14.400+09:00  INFO 11900 --- [Thread-53] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:14:14.450+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:14:14.451+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:14:14.562+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:14:14.562+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:14:14.562+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:14:14.570+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:14:14.570+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2023-04-24T11:14:14.635+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:14:14.641+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:14:14.643+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.206 seconds (process running for 3840.359)
+2023-04-24T11:14:14.644+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:14:42.144+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T11:14:42.144+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T11:14:42.145+09:00  INFO 11900 --- [http-nio-8383-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T11:14:42.147+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-04-24T11:14:42.161+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16d3eb2f
+2023-04-24T11:14:42.163+09:00  INFO 11900 --- [http-nio-8383-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-04-24T11:15:55.175+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:15:55.180+09:00  INFO 11900 --- [Thread-57] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:15:55.180+09:00  INFO 11900 --- [Thread-57] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T11:15:55.181+09:00  WARN 11900 --- [Thread-57] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-04-24T11:15:55.183+09:00  INFO 11900 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-04-24T11:15:55.185+09:00  INFO 11900 --- [Thread-57] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-04-24T11:15:55.233+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:15:55.234+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:15:55.350+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:15:55.350+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:15:55.350+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:15:55.358+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:15:55.358+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2023-04-24T11:15:55.419+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:15:55.426+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:15:55.428+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.208 seconds (process running for 3941.144)
+2023-04-24T11:15:55.429+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:16:03.038+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T11:16:03.038+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T11:16:03.039+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T11:16:03.041+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-04-24T11:16:03.056+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d9da6b6
+2023-04-24T11:16:03.056+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-04-24T11:21:56.689+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:21:56.694+09:00  INFO 11900 --- [Thread-61] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:21:56.694+09:00  INFO 11900 --- [Thread-61] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T11:21:56.696+09:00  WARN 11900 --- [Thread-61] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-4 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-04-24T11:21:56.697+09:00  INFO 11900 --- [Thread-61] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-04-24T11:21:56.700+09:00  INFO 11900 --- [Thread-61] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-04-24T11:21:56.748+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:21:56.748+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:21:56.877+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:21:56.878+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:21:56.878+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:21:56.886+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:21:56.886+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2023-04-24T11:21:56.961+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:21:56.970+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:21:56.972+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.24 seconds (process running for 4302.688)
+2023-04-24T11:21:56.973+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:22:12.408+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:22:12.412+09:00  INFO 11900 --- [Thread-65] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:22:12.461+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:22:12.462+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:22:12.572+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:22:12.572+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:22:12.572+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:22:12.580+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:22:12.580+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 117 ms
+2023-04-24T11:22:12.639+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:22:12.644+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:22:12.646+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.198 seconds (process running for 4318.362)
+2023-04-24T11:22:12.647+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:23:16.762+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:23:16.766+09:00  INFO 11900 --- [Thread-69] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:23:16.809+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:23:16.809+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:23:16.923+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:23:16.923+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:23:16.923+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:23:16.930+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:23:16.930+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 120 ms
+2023-04-24T11:23:16.996+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:23:17.001+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:23:17.004+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.207 seconds (process running for 4382.719)
+2023-04-24T11:23:17.004+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:23:40.624+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:23:40.629+09:00  INFO 11900 --- [Thread-73] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:23:40.676+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:23:40.676+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:23:40.785+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:23:40.785+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:23:40.785+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:23:40.792+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:23:40.792+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 115 ms
+2023-04-24T11:23:40.855+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:23:40.862+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:23:40.865+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.201 seconds (process running for 4406.58)
+2023-04-24T11:23:40.865+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:23:45.311+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:23:45.316+09:00  INFO 11900 --- [Thread-77] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:23:45.382+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:23:45.382+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:23:45.492+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:23:45.492+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:23:45.492+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:23:45.501+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:23:45.501+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 118 ms
+2023-04-24T11:23:45.561+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:23:45.566+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:23:45.568+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.208 seconds (process running for 4411.284)
+2023-04-24T11:23:45.569+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:29:56.059+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T11:29:56.059+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T11:29:56.060+09:00  INFO 11900 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-24T11:29:56.064+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-04-24T11:29:56.077+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34727df0
+2023-04-24T11:29:56.077+09:00  INFO 11900 --- [http-nio-8383-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-04-24T11:31:27.222+09:00  INFO 11900 --- [http-nio-8383-exec-8] kr.co.todo.controller.AppController      : 글번호 : 7
+2023-04-24T11:31:39.131+09:00  INFO 11900 --- [http-nio-8383-exec-10] kr.co.todo.controller.AppController      : 글번호 : 9
+2023-04-24T11:31:52.770+09:00  INFO 11900 --- [http-nio-8383-exec-2] kr.co.todo.controller.AppController      : 글번호 : 8
+2023-04-24T11:32:12.086+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:32:12.092+09:00  INFO 11900 --- [Thread-81] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T11:32:12.092+09:00  INFO 11900 --- [Thread-81] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-24T11:32:12.094+09:00  WARN 11900 --- [Thread-81] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [HikariPool-5 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.5/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
+2023-04-24T11:32:12.095+09:00  INFO 11900 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-04-24T11:32:12.097+09:00  INFO 11900 --- [Thread-81] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-04-24T11:32:12.155+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 11900 (C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by java1 in C:\Users\java1\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T11:32:12.156+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T11:32:12.327+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T11:32:12.328+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T11:32:12.328+09:00  INFO 11900 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T11:32:12.334+09:00  INFO 11900 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-24T11:32:12.334+09:00  INFO 11900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 177 ms
+2023-04-24T11:32:12.406+09:00  INFO 11900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T11:32:12.413+09:00  INFO 11900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T11:32:12.416+09:00  INFO 11900 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 0.282 seconds (process running for 4918.132)
+2023-04-24T11:32:12.417+09:00  INFO 11900 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24T11:32:14.846+09:00  INFO 11900 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24T11:32:14.850+09:00  INFO 11900 --- [Thread-85] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T23:36:47.636+09:00  INFO 17956 --- [restartedMain] kr.co.todo.TodoAppApplication            : Starting TodoAppApplication using Java 17.0.5 with PID 17956 (C:\Users\user\Desktop\Workspace\SpringBoot\TodoApp\target\classes started by user in C:\Users\user\Desktop\Workspace\SpringBoot\TodoApp)
+2023-04-24T23:36:47.644+09:00  INFO 17956 --- [restartedMain] kr.co.todo.TodoAppApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-04-24T23:36:47.800+09:00  INFO 17956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-24T23:36:47.802+09:00  INFO 17956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-24T23:36:50.485+09:00  INFO 17956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8383 (http)
+2023-04-24T23:36:50.525+09:00  INFO 17956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24T23:36:50.526+09:00  INFO 17956 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-24T23:36:50.685+09:00  INFO 17956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24T23:36:50.686+09:00  INFO 17956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2882 ms
+2023-04-24T23:36:52.084+09:00  INFO 17956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24T23:36:52.187+09:00  INFO 17956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8383 (http) with context path ''
+2023-04-24T23:36:52.214+09:00  INFO 17956 --- [restartedMain] kr.co.todo.TodoAppApplication            : Started TodoAppApplication in 5.62 seconds (process running for 8.665)
+2023-04-24T23:37:12.635+09:00  INFO 17956 --- [http-nio-8383-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-24T23:37:12.637+09:00  INFO 17956 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-24T23:37:12.640+09:00  INFO 17956 --- [http-nio-8383-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-24T23:40:54.269+09:00  INFO 17956 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-24T23:40:54.476+09:00  INFO 17956 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24T23:40:54.479+09:00  INFO 17956 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
